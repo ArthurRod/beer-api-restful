@@ -9,5 +9,9 @@
 - SpringBoot
 - Maven
 
+### Observação / Observation
+- API feita no bootcamp do Banco Inter na plataforma Digital Innovation One. 
+- API made at Banco Inter's bootcamp on the Digital Innovation One platform.
+
 
 

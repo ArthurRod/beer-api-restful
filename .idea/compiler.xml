@@ -23,15 +23,18 @@
           <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
           <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
         </processorPath>
+        <module name="beer-api-restful" />
         <module name="beerstock-api-restful" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="beer-api-restful" target="14" />
       <module name="beerstock-api-restful" target="14" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="beer-api-restful" options="-parameters" />
       <module name="beerstock-api-restful" options="-parameters" />
     </option>
   </component>
